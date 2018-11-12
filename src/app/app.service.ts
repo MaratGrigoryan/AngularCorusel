@@ -18,4 +18,13 @@ export class AppService implements OnInit{
   getUser():Observable<any> {
     return this.http.get(this.configUrl)
   }
+
+  postUser(title, imgUrl, desc):Observable<any> {
+    let dataUser = {
+      title: title,
+      src: imgUrl,
+      descriptions: desc
+    };
+    return this.http.post(this.configUrl, dataUser)
+  }
 }
