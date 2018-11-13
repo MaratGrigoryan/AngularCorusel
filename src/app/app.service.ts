@@ -10,7 +10,7 @@ export class AppService implements OnInit{
 
   constructor(private http: HttpClient ) { }
   
-  configUrl = 'http://localhost:3000/users';
+  configUrl = 'http://localhost:3000/pictures';
 
   ngOnInit(){
   }

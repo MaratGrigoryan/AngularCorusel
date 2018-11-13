@@ -1,40 +1,28 @@
 {
-  "users": [
+  "pictures": [    
     {
-      "title": "Hi",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(1).jpg",
-      "descriptions": "",
+      "title": "Develando",
+      "src": "https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/46079492_1766501853476903_5826238186312957952_o.png?_nc_cat=107&_nc_ht=scontent.fevn1-2.fna&oh=c0030cf1f946efe8b1d72959c46bba9e&oe=5C82FE4E",
+      "descriptions": "Develandoo is an Artificial Intelligence innovation lab, specialized in building early-stage companies",
       "id": 1
     },
     {
-      "title": "my",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(58).jpg",
-      "descriptions": "",
+      "title": "you",
+      "src": "https://scontent.fevn1-1.fna.fbcdn.net/v/t31.0-8/15676118_1048199325307163_9197617209262800533_o.png?_nc_cat=110&_nc_ht=scontent.fevn1-1.fna&oh=a6fdb016aaad8d124b45e3058a00eaea&oe=5C7699EB",
+      "descriptions": "We solve two major problems for companies:",
       "id": 2
     },
     {
-      "title": "name",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(3).jpg",
-      "descriptions": "",
+      "title": "are",
+      "src": "https://scontent.fevn1-1.fna.fbcdn.net/v/t31.0-8/14066309_929052107221886_7338828606695460705_o.jpg?_nc_cat=110&_nc_ht=scontent.fevn1-1.fna&oh=7e020b04a7073197b4a60c3d5e77ab4f&oe=5C66A203",
+      "descriptions": "1.Corporate Innovation departments are under huge pressure and face a constant demand to create new data-driven businesses based on Artificial Intelligence.",
       "id": 3
     },
     {
-      "title": "is",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(4).jpg",
-      "descriptions": "",
+      "title": "the coolest ;)",
+      "src": "https://scontent.fevn1-2.fna.fbcdn.net/v/t1.0-9/45217971_1751468388313583_9121876255933726720_o.jpg?_nc_cat=106&_nc_ht=scontent.fevn1-2.fna&oh=434692a62a77f1aab152d6fbef6aa114&oe=5C72B03C",
+      "descriptions": "2.Most of the startups have issues with finding capital or engineering resources to support their growth.",
       "id": 4
-    },
-    {
-      "title": "Marat",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(62).jpg",
-      "descriptions": "",
-      "id": 4
-    },
-    {
-      "title": "New",
-      "src": "https://mdbootstrap.com/img/Photos/Slides/img%20(33).jpg",
-      "descriptions": "new photo",
-      "id": 5
     }
   ]
 }

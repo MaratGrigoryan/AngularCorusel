@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { AppService } from './app.service'
 
 @Component({
@@ -6,11 +6,7 @@ import { AppService } from './app.service'
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
-  @ViewChild("title")  title;
-  @ViewChild("url")  url;
-  @ViewChild("desc") desc;
-
+export class AppComponent implements OnInit{ 
   imgData:any;
 
   constructor(private service:AppService){}
@@ -20,18 +16,6 @@ export class AppComponent implements OnInit{
     .subscribe(user => {
       this.imgData = user;
     });
-  }
-
-  
-  add(){
-    this.service.postUser(this.title.nativeElement.value,this.url.nativeElement.value,this.desc.nativeElement.value)
-    .subscribe(user => {
-      console.log("last user: ", user);
-    })
-    this.title.nativeElement.value = "";
-    this.url.nativeElement.value = "";
-    this.desc.nativeElement.value = ""
-    window.location.reload();
-  }
+  };
 
 }
